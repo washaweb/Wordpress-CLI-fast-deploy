@@ -32,6 +32,26 @@ After a couple of configuration prompts, the script will create a `www` folder a
  - Import default menus, pages, articles and contact form from data.xml
  - Either launch website in your default browser *OR* start development script
 
+### wpbuild()
+
+ - Theme Development auto-start :
+    * npm install
+    * Browsersync autoconfiguration
+    * Launch Gulp task and start edit your theme with SublimeText project already open at the right place
+
+### wprun()
+
+ - Launch website in the browser
+
+After finishing the installation and loggin the admin, you should be redirected to the permalinks option page.
+**Just save the permalink structure** of your brand new website and you're up to go !
+
+
+#### theme in use
+
+ - [understrap](https://github.com/holger1411/understrap)
+ - [understrap-child](https://github.com/holger1411/understrap-child) (active theme)
+
 #### installed plugin list
 
  - user-role-editor
@@ -50,10 +70,10 @@ After a couple of configuration prompts, the script will create a `www` folder a
 
 #### optional installed plugin list
  
-**Woocommerce :**
+Woocommerce :
  - woocommerce
  
-**ACF plugins :**
+ACF plugins :
  - advanced-custom-fields
  - advanced-custom-field-repeater-collapser
  - advanced-custom-fields-table-field
@@ -62,28 +82,8 @@ After a couple of configuration prompts, the script will create a `www` folder a
  - acf-link
  - advanced-custom-fields-recaptcha-field
 
-#### theme installation
-
- - [understrap](https://github.com/holger1411/understrap)
- - [understrap-child](https://github.com/holger1411/understrap-child) (active theme)
-
-**Member zone plugins :**
+Member zone plugins :
  - wp-members
  - hide-admin-bar-from-non-admins
-
-### wpbuild()
-
- - Theme Development auto-start :
-    * npm install
-    * Browsersync autoconfiguration
-    * Launch Gulp task and start edit your theme with SublimeText project already open at the right place
-
-### wprun()
-
- - Launch website in the browser
-
-After finishing the installation and loggin the admin, you should be redirected to the permalinks option page.
-**Just save the permalink structure** of your brand new website and you're up to go !
-
 
 
